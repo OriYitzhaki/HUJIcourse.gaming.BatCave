@@ -1,0 +1,14 @@
+General Grade Distribution:
++15 - Code is compiling
++15 - Compiling & not raising exceptions/errors
++10 - Compiling & no logical errors & bugs
++5 - Compiling & no warnings
++5 - Consistent coding conventions & readability
+
+Exercise Specific:
++10 - README (student details and description of anything extra you've implemented)
++30 - Movement code. Make the bat advance forward and fly up.
++10 - Wire animation parameters in the inspector.
+
+Bonus:
++10 - Collision code. Kill the bat on collision and play the die animation.
