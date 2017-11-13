@@ -1,29 +1,21 @@
-﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-namespace BatCave
-{
-    [CreateAssetMenu(menuName = "Bat Controller/Composite")]
-    public class CompositeBatController : BatController {
-        
-        [SerializeField] private BatController _mouseController = CreateInstance<BatMouseController>();
-        [SerializeField] private BatController _keyboardController = CreateInstance<BatKeyboardController>();
-        
-        // Use this for initialization
-        void Start () {
-		
-        }
-	
-        // Update is called once per frame
-        void Update () {
-		
-        }
+namespace BatCave {
+/// <summary>
+/// A scriptable object that allows getting control from several bat controllers.
+/// </summary>
+[CreateAssetMenu(menuName = "Bat Controller/Composite")]
+public class CompositeBatController : BatController {
+    [SerializeField] BatController[] controllers;
 
-        public override bool WantsToFlyUp()
-        {
-            return _mouseController.WantsToFlyUp() || _keyboardController.WantsToFlyUp();
+    /// <summary>
+    /// Returns true if any of the controllers wants the bat to fly up.
+    /// </summary>
+    public override bool WantsToFlyUp() {
+        foreach (var controller in controllers) {
+            if (controller.WantsToFlyUp()) return true;
         }
+        return false;
     }
-
+}
 }

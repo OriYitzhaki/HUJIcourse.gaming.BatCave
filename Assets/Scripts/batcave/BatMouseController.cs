@@ -47,26 +47,26 @@ namespace BatCave
 
         private void RegisterSelf()
         {
+            _isRegister = true;
             GameInputCapture.OnTouchDown += OnTouchDown;
             GameInputCapture.OnTouchUp += OnTouchUp;
-            _isRegister = true;
         }
 
 
         private void OnDisable()
         {
             if (!_isRegister) return;
+            _isRegister = false;
             GameInputCapture.OnTouchDown -= OnTouchDown;
             GameInputCapture.OnTouchUp -= OnTouchUp;
-            _isRegister = false;
         }
 
         private void OnDestroy()
         {
             if (!_isRegister) return;
+            _isRegister = false;
             GameInputCapture.OnTouchDown -= OnTouchDown;
             GameInputCapture.OnTouchUp -= OnTouchUp;
-            _isRegister = false;
         }
 
         private void OnTouchUp(PointerEventData obj)
