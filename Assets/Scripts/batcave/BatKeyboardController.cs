@@ -11,7 +11,7 @@ namespace BatCave
     public class BatKeyboardController : BatController
     {
         [SerializeField] private bool _wantsToFlyUp;
-        [SerializeField] private string _listhenTo = "space";
+        [SerializeField] private KeyCode _listhenTo = KeyCode.Space;
 
         public override bool WantsToFlyUp()
         {
@@ -26,7 +26,8 @@ namespace BatCave
         // Update is called once per frame
         void Update()
         {
-            _wantsToFlyUp = Input.GetKeyDown(KeyCode.Space);
+            _wantsToFlyUp = Input.GetKeyDown(_listhenTo);
+            _wantsToFlyUp = !Input.GetKeyUp(_listhenTo);
         }
     }
 }

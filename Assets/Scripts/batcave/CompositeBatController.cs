@@ -22,7 +22,8 @@ namespace BatCave
 
         public override bool WantsToFlyUp()
         {
-            return _mouseController.WantsToFlyUp() || _keyboardController.WantsToFlyUp();
+//            return _mouseController.WantsToFlyUp() || _keyboardController.WantsToFlyUp();
+            return  _keyboardController.WantsToFlyUp();
         }
     }
 
