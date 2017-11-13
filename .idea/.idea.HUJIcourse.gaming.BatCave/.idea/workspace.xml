@@ -1,30 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c94ff055-d450-435c-9197-38b9432598f4" name="Default" comment="idk">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/assetDatabase3" afterPath="$PROJECT_DIR$/Library/assetDatabase3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/expandedItems" afterPath="$PROJECT_DIR$/Library/expandedItems" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000004000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000004000000000000000" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/56/56270a282d6e84b01bc8a46ec8f3298f" afterPath="$PROJECT_DIR$/Library/metadata/56/56270a282d6e84b01bc8a46ec8f3298f" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/64/64f9129ee78c4437484b6246faa45526" afterPath="$PROJECT_DIR$/Library/metadata/64/64f9129ee78c4437484b6246faa45526" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/99/9911029a0c75841cdb696dd3bbdefc97.info" afterPath="$PROJECT_DIR$/Library/metadata/99/9911029a0c75841cdb696dd3bbdefc97.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.HUJIcourse.gaming.BatCave/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.HUJIcourse.gaming.BatCave/.idea/contentModel.xml" />
+    <list default="true" id="c94ff055-d450-435c-9197-38b9432598f4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.HUJIcourse.gaming.BatCave/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.HUJIcourse.gaming.BatCave/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor-firstpass.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor-firstpass.csproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Design/Animation/BatAnimations.controller" afterPath="$PROJECT_DIR$/Assets/Design/Animation/BatAnimations.controller" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/Bat.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bat.prefab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/Main Camera.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Main Camera.prefab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/batcave/Bat.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/batcave/Bat.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/infra/gameplay/LookaheadSmoothCameraFollow.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/infra/gameplay/LookaheadSmoothCameraFollow.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HUJIcourse.gaming.BatCave.sln" afterPath="$PROJECT_DIR$/HUJIcourse.gaming.BatCave.sln" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ProjectSettings.asset" afterPath="$PROJECT_DIR$/Library/ProjectSettings.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -225,7 +203,7 @@
       <workItem from="1510065779747" duration="532000" />
       <workItem from="1510157089405" duration="278000" />
       <workItem from="1510157959453" duration="2518000" />
-      <workItem from="1510599171699" duration="86000" />
+      <workItem from="1510599171699" duration="118000" />
     </task>
     <task id="LOCAL-00001" summary="idk">
       <created>1510065827122</created>
@@ -241,11 +219,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510065989126</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="idk">
+      <created>1510599278543</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1510599278544</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4707000" />
+    <option name="totallyTimeSpent" value="4739000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
