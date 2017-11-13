@@ -28,6 +28,10 @@ public class Bat : MonoBehaviour {
     [Header("Testing")]
     [SerializeField] bool isInvulnerable;
 
+    [Header("Controler")]
+    [SerializeField] private BatController _batController = ScriptableObject.CreateInstance<BatCompositeControler>();
+    
+    
     private bool FlyUp {
         get {
             return _flyUp;
@@ -78,12 +82,15 @@ public class Bat : MonoBehaviour {
     protected void Update() {
         if (!isAlive) return;
 
-        // Handle keyboard input.
-        if (Input.GetKeyDown(KeyCode.Space)) {
-            FlyUp = true;
-        } else if (Input.GetKeyUp(KeyCode.Space)) {
-            FlyUp = false;
-        }
+//        // Handle keyboard input.
+//        if (Input.GetKeyDown(KeyCode.Space)) {
+//            FlyUp = true;
+//        } else if (Input.GetKeyUp(KeyCode.Space)) {
+//            FlyUp = false;
+//        }
+
+        FlyUp = _batController.WantsToFlyUp();
+        
         animator.SetBool(flyUpBoolAnimParamId, FlyUp);
         animator.SetBool(isAliveBoolAnimParamId, isAlive);
     }

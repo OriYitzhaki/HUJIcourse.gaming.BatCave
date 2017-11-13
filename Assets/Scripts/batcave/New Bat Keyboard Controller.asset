@@ -8,10 +8,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ffefaf3bf4f24509b7a48b8fb662c91, type: 3}
-  m_Name: New Simple Audio Event
+  m_Script: {fileID: 11500000, guid: c5be1dc9deca88d4987c8d6d136369e0, type: 3}
+  m_Name: New Bat Keyboard Controller
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: 51bf50f8d4b924daf900f7ab72bbf200, type: 3}
-  volume: 1
-  pitch: 1
-  stereoPan: 0
+  _wantsToFlyUp: 0
+  _listhenTo: space

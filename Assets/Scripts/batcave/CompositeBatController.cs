@@ -4,10 +4,11 @@ using UnityEngine;
 
 namespace BatCave
 {
+    [CreateAssetMenu(menuName = "Bat Controller/Composite")]
     public class BatCompositeControler : BatController {
         
-        [SerializeField] private BatController _mouseController = ScriptableObject.CreateInstance<BatMouseController>();
-        [SerializeField] private BatController _keyboardController = ScriptableObject.CreateInstance<BatKeyboardController>();
+        [SerializeField] private BatController _mouseController = CreateInstance<BatMouseController>();
+        [SerializeField] private BatController _keyboardController = CreateInstance<BatKeyboardController>();
         
         // Use this for initialization
         void Start () {
