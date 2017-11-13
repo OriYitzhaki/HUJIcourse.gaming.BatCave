@@ -4,6 +4,7 @@
     <e p="C:\Users\Ori Yitzhaki\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_HUJIcourse.gaming.BatCave.-378628856.00" t="ExcludeRecursive" />
     <e p="C:\Users\Ori Yitzhaki\RiderProjects\HUJIcourse.gaming.BatCave" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Plugins" t="Include">
@@ -16,22 +17,48 @@
         <e p="Scripts" t="Include">
           <e p="batcave" t="Include">
             <e p="Bat.cs" t="Include" />
+            <e p="BatController.cs" t="Include" />
+            <e p="CaveChunk.cs" t="Include" />
+            <e p="CaveGenerator.cs" t="Include" />
+            <e p="CompositeBatController.cs" t="Include" />
+            <e p="GameManager.cs" t="Include" />
           </e>
           <e p="infra" t="Include">
+            <e p="audio" t="Include">
+              <e p="AudioEvent.cs" t="Include" />
+              <e p="AudioManager.cs" t="Include" />
+              <e p="AudioPoolEvent.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="AudioEventEditor.cs" t="Include" />
+              </e>
+              <e p="SimpleAudioEvent.cs" t="Include" />
+            </e>
             <e p="camera" t="Include">
               <e p="CameraResize.cs" t="Include" />
             </e>
             <e p="gameplay" t="Include">
+              <e p="EndlessWorldScroller.cs" t="Include" />
               <e p="FollowX.cs" t="Include" />
               <e p="LookaheadSmoothCameraFollow.cs" t="Include" />
+              <e p="PolygonColliderWithMesh.cs" t="Include" />
               <e p="RotateByVelocity.cs" t="Include" />
               <e p="UI" t="Include">
                 <e p="GameInputCapture.cs" t="Include" />
               </e>
             </e>
             <e p="utils" t="Include">
+              <e p="DebugUtils.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="RangedFloatDrawer.cs" t="Include" />
+              </e>
               <e p="MathsUtils.cs" t="Include" />
+              <e p="MinMaxRangeAttribute.cs" t="Include" />
+              <e p="RangedFloat.cs" t="Include" />
             </e>
+          </e>
+          <e p="ThirdParty" t="Include">
+            <e p="MonoSingleton.cs" t="Include" />
+            <e p="Triangulator.cs" t="Include" />
           </e>
         </e>
       </e>

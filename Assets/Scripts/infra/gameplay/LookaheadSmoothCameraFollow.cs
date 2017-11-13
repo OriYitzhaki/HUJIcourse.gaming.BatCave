@@ -59,7 +59,7 @@ public class LookaheadSmoothCameraFollow : MonoBehaviour {
         offset.z = cameraComponent.transform.position.z - target.position.z;
     }
 
-    protected void FixedUpdate() {
+    protected void LateUpdate() {
         if (target && targetLookahead && target.gameObject.activeInHierarchy) {
             // Calculate position.
             var targetPosition = new Vector3(target.position.x, targetLookahead.position.y, 0.0f) + offset;
@@ -75,7 +75,7 @@ public class LookaheadSmoothCameraFollow : MonoBehaviour {
                 ref velocity,
                 snapLooseness,
                 Mathf.Infinity,
-                Time.fixedDeltaTime);
+                Time.unscaledDeltaTime);
         }
     }
 }

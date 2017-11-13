@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
+using Infra.Audio;
 using Infra.Gameplay.UI;
 
 namespace BatCave {
@@ -17,18 +18,38 @@ public class Bat : MonoBehaviour {
     [SerializeField] string flyUpBoolAnimParamName;
     [SerializeField] string isAliveBoolAnimParamName;
 
+    [Header("Audio")]
+    [SerializeField] GameObject wingsSoundSource;
+    [SerializeField] AudioEvent hitAudioEvent;
+
     [Header("State")]
     [SerializeField] bool isAlive;
 
     [Header("Testing")]
     [SerializeField] bool isInvulnerable;
 
+    private bool FlyUp {
+        get {
+            return _flyUp;
+        }
+        set {
+            if (value != _flyUp) {
+                _flyUp = value;
+                if (wingsSoundSource != null) {
+                    wingsSoundSource.SetActive(_flyUp);
+                }
+            }
+        }
+    }
+
     private int flyUpBoolAnimParamId;
     private int isAliveBoolAnimParamId;
 
-    private bool flyUp;
+    private bool _flyUp;
     private Animator animator;
     private Rigidbody2D body;
+
+    private Vector2 initialPosition;
 
     protected void Awake() {
         body = GetComponent<Rigidbody2D>();
@@ -40,12 +61,18 @@ public class Bat : MonoBehaviour {
         GameInputCapture.OnTouchDown += OnTouchDown;
         GameInputCapture.OnTouchUp += OnTouchUp;
 
-        isAlive = true;
+        GameManager.OnGameStarted += OnGameStarted;
+        GameManager.OnGameReset += OnGameReset;
+
+        initialPosition = body.position;
+        OnGameReset();
     }
 
     protected void OnDestroy() {
         GameInputCapture.OnTouchDown -= OnTouchDown;
         GameInputCapture.OnTouchUp -= OnTouchUp;
+        GameManager.OnGameStarted -= OnGameStarted;
+        GameManager.OnGameReset -= OnGameReset;
     }
 
     protected void Update() {
@@ -53,43 +80,75 @@ public class Bat : MonoBehaviour {
 
         // Handle keyboard input.
         if (Input.GetKeyDown(KeyCode.Space)) {
-            flyUp = true;
+            FlyUp = true;
         } else if (Input.GetKeyUp(KeyCode.Space)) {
-            flyUp = false;
+            FlyUp = false;
         }
-        animator.SetBool(flyUpBoolAnimParamId, flyUp);
+        animator.SetBool(flyUpBoolAnimParamId, FlyUp);
         animator.SetBool(isAliveBoolAnimParamId, isAlive);
     }
 
     protected void FixedUpdate() {
         if (!isAlive) return;
-        // EXERCISE: Set the bat's body.velocity so it will always move at
-        //           xSpeed to the right and at flyYSpeed if it should fly up.
-
-        var v = body.velocity;
-        v.x = xSpeed;
-
-        if (flyUp)
-        {
-            v.y = flyYSpeed;
+        var velocity = body.velocity;
+        velocity.x = xSpeed;
+        if (FlyUp) {
+            velocity.y = flyYSpeed;
         }
-        body.velocity = v;
-        
+        body.velocity = velocity;
     }
 
     protected void OnCollisionEnter2D(Collision2D collision) {
+        // Play death sound.
+        if (isAlive && hitAudioEvent != null) {
+            hitAudioEvent.Play();
+        }
+
         if (isInvulnerable) return;
+
+        // Stop flying.
+        FlyUp = false;
+        body.velocity = Vector2.zero;
+
+        // Play death animation.
         isAlive = false;
         animator.SetBool(isAliveBoolAnimParamId, isAlive);
+        enabled = false;
+
+        GameManager.Instance.OnGameOver();
+    }
+
+    private void OnGameStarted() {
+        // Let the bat fly!
+        body.constraints = RigidbodyConstraints2D.None;
+    }
+
+    private void OnGameReset() {
+        // Stop the bat.
+        body.velocity = Vector2.zero;
+        body.angularVelocity = 0f;
+        // Reset it's position.
+        body.rotation = 0f;
+        body.position = initialPosition;
+        transform.position = initialPosition;
+        // Prevent it from moving.
+        body.constraints = RigidbodyConstraints2D.FreezeAll;
+
+        // Reanimate the bat. Bring it back from the dead.
+        isAlive = true;
+        FlyUp = false;
+
+        enabled = true;
     }
 
     private void OnTouchDown(PointerEventData e) {
-        if (!isAlive) return;
-        flyUp = true;
+        // Check that the event was not already handled by the GameManager.
+        if (!isAlive || e.used) return;
+        FlyUp = true;
     }
 
     private void OnTouchUp(PointerEventData e) {
-        flyUp = false;
+        FlyUp = false;
     }
 }
 }
