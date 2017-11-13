@@ -5,7 +5,7 @@ using UnityEngine;
 namespace BatCave
 {
     [CreateAssetMenu(menuName = "Bat Controller/Composite")]
-    public class BatCompositeControler : BatController {
+    public class CompositeBatController : BatController {
         
         [SerializeField] private BatController _mouseController = CreateInstance<BatMouseController>();
         [SerializeField] private BatController _keyboardController = CreateInstance<BatKeyboardController>();
@@ -22,8 +22,7 @@ namespace BatCave
 
         public override bool WantsToFlyUp()
         {
-//            return _mouseController.WantsToFlyUp() || _keyboardController.WantsToFlyUp();
-            return  _keyboardController.WantsToFlyUp();
+            return _mouseController.WantsToFlyUp() || _keyboardController.WantsToFlyUp();
         }
     }
 

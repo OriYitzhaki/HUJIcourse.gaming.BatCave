@@ -29,7 +29,7 @@ public class Bat : MonoBehaviour {
     [SerializeField] bool isInvulnerable;
 
     [Header("Controler")]
-    [SerializeField] private BatController _batController = ScriptableObject.CreateInstance<BatCompositeControler>();
+    [SerializeField] private BatController _batController = ScriptableObject.CreateInstance<CompositeBatController>();
     
     
     private bool FlyUp {

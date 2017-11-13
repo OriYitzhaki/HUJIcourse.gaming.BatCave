@@ -1,10 +1,13 @@
 fileFormatVersion: 2
 guid: 2335963f678a4bf4491d0b866aee74df
-timeCreated: 1510603269
+timeCreated: 1510604686
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - _mouseController: {fileID: 11400000, guid: 9030b00368270ed4e9cb2466c411d12b, type: 2}
+  - _keyboardController: {fileID: 11400000, guid: 2077796da2fbf2048971aa52dcdbdcd0,
+      type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

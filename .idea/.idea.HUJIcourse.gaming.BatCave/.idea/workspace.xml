@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c94ff055-d450-435c-9197-38b9432598f4" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/batcave/New Bat Composite Controler.asset" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Scripts/batcave/New Bat Composite Controler.asset.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/c5/c55621494cf07fa44acd637f2ab71d6d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Library/metadata/c5/c55621494cf07fa44acd637f2ab71d6d.info" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/assetDatabase3" afterPath="$PROJECT_DIR$/Library/assetDatabase3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/23/2335963f678a4bf4491d0b866aee74df" afterPath="$PROJECT_DIR$/Library/metadata/23/2335963f678a4bf4491d0b866aee74df" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/c5/c5be1dc9deca88d4987c8d6d136369e0" afterPath="$PROJECT_DIR$/Library/metadata/c5/c5be1dc9deca88d4987c8d6d136369e0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/23/2335963f678a4bf4491d0b866aee74df.info" afterPath="$PROJECT_DIR$/Library/metadata/23/2335963f678a4bf4491d0b866aee74df.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/56/56270a282d6e84b01bc8a46ec8f3298f" afterPath="$PROJECT_DIR$/Library/metadata/56/56270a282d6e84b01bc8a46ec8f3298f" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/56/56270a282d6e84b01bc8a46ec8f3298f.info" afterPath="$PROJECT_DIR$/Library/metadata/56/56270a282d6e84b01bc8a46ec8f3298f.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.HUJIcourse.gaming.BatCave/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.HUJIcourse.gaming.BatCave/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/batcave/BatKeyboardController.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/batcave/BatKeyboardController.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/batcave/Bat.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/batcave/Bat.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/batcave/Bat.cs.meta" afterPath="$PROJECT_DIR$/Assets/Scripts/batcave/Bat.cs.meta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/batcave/CompositeBatController.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/batcave/CompositeBatController.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/batcave/CompositeBatController.cs.meta" afterPath="$PROJECT_DIR$/Assets/Scripts/batcave/CompositeBatController.cs.meta" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,10 +58,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BatKeyboardController.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BatKeyboardController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/batcave/BatKeyboardController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
+            <state relative-caret-position="663">
               <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <marker date="1510604307672" expanded="true" signature="6:132" ph="..." />
@@ -67,7 +75,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BatMouseController.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BatMouseController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/batcave/BatMouseController.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="290">
@@ -97,15 +105,15 @@
       <file leaf-file-name="CompositeBatController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/batcave/CompositeBatController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="834">
-              <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            <state relative-caret-position="300">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
-                <marker date="1510604405827" expanded="true" signature="6:78" ph="..." />
-                <marker date="1510604405827" expanded="true" signature="97:830" ph="{...}" />
-                <marker date="1510604405827" expanded="true" signature="216:827" ph="{...}" />
-                <marker date="1510604405827" expanded="true" signature="511:525" ph="{...}" />
-                <marker date="1510604405827" expanded="true" signature="594:608" ph="{...}" />
-                <marker date="1510604405827" expanded="true" signature="653:821" ph="{...}" />
+                <marker date="1510604743638" expanded="true" signature="6:78" ph="..." />
+                <marker date="1510604743638" expanded="true" signature="97:773" ph="{...}" />
+                <marker date="1510604743638" expanded="true" signature="217:770" ph="{...}" />
+                <marker date="1510604743638" expanded="true" signature="512:526" ph="{...}" />
+                <marker date="1510604743638" expanded="true" signature="595:609" ph="{...}" />
+                <marker date="1510604743638" expanded="true" signature="654:764" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -114,30 +122,30 @@
       <file leaf-file-name="Bat.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/batcave/Bat.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="91" column="16" lean-forward="false" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
+            <state relative-caret-position="455">
+              <caret line="31" column="114" lean-forward="false" selection-start-line="31" selection-start-column="114" selection-end-line="31" selection-end-column="114" />
               <folding>
-                <marker date="1510604084903" expanded="false" signature="6:94" ph="..." />
-                <marker date="1510604084903" expanded="true" signature="114:4423" ph="{...}" />
-                <marker date="1510604084903" expanded="true" signature="116:283" ph="/// The Bat controller. Responsible for playing bat animations, handling collision ... " />
-                <marker date="1510604084903" expanded="true" signature="375:4421" ph="{...}" />
-                <marker date="1510604084903" expanded="true" signature="1031:1316" ph="{...}" />
-                <marker date="1510604084903" expanded="true" signature="1045:1083" ph="{...}" />
-                <marker date="1510604084903" expanded="true" signature="1096:1310" ph="{...}" />
-                <marker date="1510604084903" expanded="true" signature="1131:1300" ph="{...}" />
-                <marker date="1510604084903" expanded="true" signature="1211:1286" ph="{...}" />
-                <marker date="1510604084903" expanded="true" signature="1549:2075" ph="{...}" />
-                <marker date="1510604084903" expanded="true" signature="2108:2317" ph="{...}" />
-                <marker date="1510604084903" expanded="true" signature="2347:2764" ph="{...}" />
-                <marker date="1510604084903" expanded="true" signature="2380:2587" ph="/* Handle keyboard input. ... */" />
-                <marker date="1510604084903" expanded="true" signature="2799:3004" ph="{...}" />
-                <marker date="1510604084903" expanded="true" signature="2917:2964" ph="{...}" />
-                <marker date="1510604084903" expanded="true" signature="3067:3505" ph="{...}" />
-                <marker date="1510604084903" expanded="true" signature="3144:3189" ph="{...}" />
-                <marker date="1510604084903" expanded="true" signature="3540:3631" ph="{...}" />
-                <marker date="1510604084903" expanded="true" signature="3664:4144" ph="{...}" />
-                <marker date="1510604084903" expanded="true" signature="4195:4340" ph="{...}" />
-                <marker date="1510604084903" expanded="true" signature="4389:4419" ph="{...}" />
+                <marker date="1510604669254" expanded="false" signature="6:94" ph="..." />
+                <marker date="1510604669254" expanded="true" signature="114:4424" ph="{...}" />
+                <marker date="1510604669254" expanded="true" signature="116:283" ph="/// The Bat controller. Responsible for playing bat animations, handling collision ... " />
+                <marker date="1510604669254" expanded="true" signature="375:4422" ph="{...}" />
+                <marker date="1510604669254" expanded="true" signature="1032:1317" ph="{...}" />
+                <marker date="1510604669254" expanded="true" signature="1046:1084" ph="{...}" />
+                <marker date="1510604669254" expanded="true" signature="1097:1311" ph="{...}" />
+                <marker date="1510604669254" expanded="true" signature="1132:1301" ph="{...}" />
+                <marker date="1510604669254" expanded="true" signature="1212:1287" ph="{...}" />
+                <marker date="1510604669254" expanded="true" signature="1550:2076" ph="{...}" />
+                <marker date="1510604669254" expanded="true" signature="2109:2318" ph="{...}" />
+                <marker date="1510604669254" expanded="true" signature="2348:2765" ph="{...}" />
+                <marker date="1510604669254" expanded="true" signature="2381:2588" ph="/* Handle keyboard input. ... */" />
+                <marker date="1510604669254" expanded="true" signature="2800:3005" ph="{...}" />
+                <marker date="1510604669254" expanded="true" signature="2918:2965" ph="{...}" />
+                <marker date="1510604669254" expanded="true" signature="3068:3506" ph="{...}" />
+                <marker date="1510604669254" expanded="true" signature="3145:3190" ph="{...}" />
+                <marker date="1510604669254" expanded="true" signature="3541:3632" ph="{...}" />
+                <marker date="1510604669254" expanded="true" signature="3665:4145" ph="{...}" />
+                <marker date="1510604669254" expanded="true" signature="4196:4341" ph="{...}" />
+                <marker date="1510604669254" expanded="true" signature="4390:4420" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -167,8 +175,8 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/batcave/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/batcave/BatMouseController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/batcave/Bat.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/batcave/BatKeyboardController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/batcave/Bat.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/batcave/CompositeBatController.cs" />
       </list>
     </option>
@@ -300,7 +308,7 @@
       <workItem from="1510065779747" duration="532000" />
       <workItem from="1510157089405" duration="278000" />
       <workItem from="1510157959453" duration="2518000" />
-      <workItem from="1510599171699" duration="5317000" />
+      <workItem from="1510599171699" duration="5571000" />
     </task>
     <task id="LOCAL-00001" summary="idk">
       <created>1510065827122</created>
@@ -351,11 +359,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510604221721</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="controllers + maybe composite">
+      <created>1510604504279</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1510604504279</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9938000" />
+    <option name="totallyTimeSpent" value="10192000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -379,7 +394,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32944608" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -524,27 +539,27 @@
         <state relative-caret-position="1360">
           <caret line="82" column="25" lean-forward="false" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
           <folding>
-            <marker date="1510604084903" expanded="false" signature="6:94" ph="..." />
-            <marker date="1510604084903" expanded="true" signature="114:4423" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="116:283" ph="/// The Bat controller. Responsible for playing bat animations, handling collision ... " />
-            <marker date="1510604084903" expanded="true" signature="375:4421" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="1031:1316" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="1045:1083" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="1096:1310" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="1131:1300" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="1211:1286" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="1549:2075" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="2108:2317" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="2347:2764" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="2380:2587" ph="/* Handle keyboard input. ... */" />
-            <marker date="1510604084903" expanded="true" signature="2799:3004" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="2917:2964" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="3067:3505" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="3144:3189" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="3540:3631" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="3664:4144" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="4195:4340" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="4389:4419" ph="{...}" />
+            <marker date="1510604669254" expanded="false" signature="6:94" ph="..." />
+            <marker date="1510604669254" expanded="true" signature="114:4424" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="116:283" ph="/// The Bat controller. Responsible for playing bat animations, handling collision ... " />
+            <marker date="1510604669254" expanded="true" signature="375:4422" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="1032:1317" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="1046:1084" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="1097:1311" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="1132:1301" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="1212:1287" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="1550:2076" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="2109:2318" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="2348:2765" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="2381:2588" ph="/* Handle keyboard input. ... */" />
+            <marker date="1510604669254" expanded="true" signature="2800:3005" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="2918:2965" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="3068:3506" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="3145:3190" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="3541:3632" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="3665:4145" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="4196:4341" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="4390:4420" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -554,27 +569,27 @@
         <state relative-caret-position="901">
           <caret line="55" column="25" lean-forward="false" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
           <folding>
-            <marker date="1510604084903" expanded="false" signature="6:94" ph="..." />
-            <marker date="1510604084903" expanded="true" signature="114:4423" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="116:283" ph="/// The Bat controller. Responsible for playing bat animations, handling collision ... " />
-            <marker date="1510604084903" expanded="true" signature="375:4421" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="1031:1316" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="1045:1083" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="1096:1310" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="1131:1300" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="1211:1286" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="1549:2075" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="2108:2317" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="2347:2764" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="2380:2587" ph="/* Handle keyboard input. ... */" />
-            <marker date="1510604084903" expanded="true" signature="2799:3004" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="2917:2964" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="3067:3505" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="3144:3189" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="3540:3631" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="3664:4144" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="4195:4340" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="4389:4419" ph="{...}" />
+            <marker date="1510604669254" expanded="false" signature="6:94" ph="..." />
+            <marker date="1510604669254" expanded="true" signature="114:4424" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="116:283" ph="/// The Bat controller. Responsible for playing bat animations, handling collision ... " />
+            <marker date="1510604669254" expanded="true" signature="375:4422" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="1032:1317" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="1046:1084" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="1097:1311" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="1132:1301" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="1212:1287" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="1550:2076" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="2109:2318" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="2348:2765" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="2381:2588" ph="/* Handle keyboard input. ... */" />
+            <marker date="1510604669254" expanded="true" signature="2800:3005" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="2918:2965" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="3068:3506" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="3145:3190" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="3541:3632" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="3665:4145" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="4196:4341" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="4390:4420" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -609,27 +624,27 @@
         <state relative-caret-position="1207">
           <caret line="73" column="15" lean-forward="true" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
           <folding>
-            <marker date="1510604084903" expanded="false" signature="6:94" ph="..." />
-            <marker date="1510604084903" expanded="true" signature="114:4423" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="116:283" ph="/// The Bat controller. Responsible for playing bat animations, handling collision ... " />
-            <marker date="1510604084903" expanded="true" signature="375:4421" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="1031:1316" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="1045:1083" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="1096:1310" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="1131:1300" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="1211:1286" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="1549:2075" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="2108:2317" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="2347:2764" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="2380:2587" ph="/* Handle keyboard input. ... */" />
-            <marker date="1510604084903" expanded="true" signature="2799:3004" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="2917:2964" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="3067:3505" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="3144:3189" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="3540:3631" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="3664:4144" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="4195:4340" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="4389:4419" ph="{...}" />
+            <marker date="1510604669254" expanded="false" signature="6:94" ph="..." />
+            <marker date="1510604669254" expanded="true" signature="114:4424" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="116:283" ph="/// The Bat controller. Responsible for playing bat animations, handling collision ... " />
+            <marker date="1510604669254" expanded="true" signature="375:4422" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="1032:1317" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="1046:1084" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="1097:1311" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="1132:1301" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="1212:1287" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="1550:2076" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="2109:2318" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="2348:2765" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="2381:2588" ph="/* Handle keyboard input. ... */" />
+            <marker date="1510604669254" expanded="true" signature="2800:3005" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="2918:2965" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="3068:3506" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="3145:3190" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="3541:3632" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="3665:4145" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="4196:4341" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="4390:4420" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -795,60 +810,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/batcave/Bat.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="91" column="16" lean-forward="false" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
+        <state relative-caret-position="455">
+          <caret line="31" column="114" lean-forward="false" selection-start-line="31" selection-start-column="114" selection-end-line="31" selection-end-column="114" />
           <folding>
-            <marker date="1510604084903" expanded="false" signature="6:94" ph="..." />
-            <marker date="1510604084903" expanded="true" signature="114:4423" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="116:283" ph="/// The Bat controller. Responsible for playing bat animations, handling collision ... " />
-            <marker date="1510604084903" expanded="true" signature="375:4421" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="1031:1316" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="1045:1083" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="1096:1310" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="1131:1300" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="1211:1286" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="1549:2075" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="2108:2317" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="2347:2764" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="2380:2587" ph="/* Handle keyboard input. ... */" />
-            <marker date="1510604084903" expanded="true" signature="2799:3004" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="2917:2964" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="3067:3505" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="3144:3189" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="3540:3631" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="3664:4144" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="4195:4340" ph="{...}" />
-            <marker date="1510604084903" expanded="true" signature="4389:4419" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/batcave/CompositeBatController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="834">
-          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding>
-            <marker date="1510604405827" expanded="true" signature="6:78" ph="..." />
-            <marker date="1510604405827" expanded="true" signature="97:830" ph="{...}" />
-            <marker date="1510604405827" expanded="true" signature="216:827" ph="{...}" />
-            <marker date="1510604405827" expanded="true" signature="511:525" ph="{...}" />
-            <marker date="1510604405827" expanded="true" signature="594:608" ph="{...}" />
-            <marker date="1510604405827" expanded="true" signature="653:821" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/batcave/BatKeyboardController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <marker date="1510604307672" expanded="true" signature="6:132" ph="..." />
-            <marker date="1510604307672" expanded="true" signature="151:785" ph="{...}" />
-            <marker date="1510604307672" expanded="true" signature="268:783" ph="{...}" />
-            <marker date="1510604307672" expanded="true" signature="441:495" ph="{...}" />
-            <marker date="1510604307672" expanded="true" signature="556:576" ph="{...}" />
-            <marker date="1510604307672" expanded="true" signature="642:777" ph="{...}" />
+            <marker date="1510604669254" expanded="false" signature="6:94" ph="..." />
+            <marker date="1510604669254" expanded="true" signature="114:4424" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="116:283" ph="/// The Bat controller. Responsible for playing bat animations, handling collision ... " />
+            <marker date="1510604669254" expanded="true" signature="375:4422" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="1032:1317" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="1046:1084" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="1097:1311" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="1132:1301" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="1212:1287" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="1550:2076" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="2109:2318" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="2348:2765" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="2381:2588" ph="/* Handle keyboard input. ... */" />
+            <marker date="1510604669254" expanded="true" signature="2800:3005" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="2918:2965" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="3068:3506" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="3145:3190" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="3541:3632" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="3665:4145" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="4196:4341" ph="{...}" />
+            <marker date="1510604669254" expanded="true" signature="4390:4420" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -874,6 +859,36 @@
             <marker date="1510603147086" expanded="true" signature="1675:1733" ph="{...}" />
             <marker date="1510603147086" expanded="true" signature="1789:1859" ph="{...}" />
             <marker date="1510603147086" expanded="true" signature="1935:1959" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/batcave/CompositeBatController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <marker date="1510604743638" expanded="true" signature="6:78" ph="..." />
+            <marker date="1510604743638" expanded="true" signature="97:773" ph="{...}" />
+            <marker date="1510604743638" expanded="true" signature="217:770" ph="{...}" />
+            <marker date="1510604743638" expanded="true" signature="512:526" ph="{...}" />
+            <marker date="1510604743638" expanded="true" signature="595:609" ph="{...}" />
+            <marker date="1510604743638" expanded="true" signature="654:764" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/batcave/BatKeyboardController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <marker date="1510604307672" expanded="true" signature="6:132" ph="..." />
+            <marker date="1510604307672" expanded="true" signature="151:785" ph="{...}" />
+            <marker date="1510604307672" expanded="true" signature="268:783" ph="{...}" />
+            <marker date="1510604307672" expanded="true" signature="441:495" ph="{...}" />
+            <marker date="1510604307672" expanded="true" signature="556:576" ph="{...}" />
+            <marker date="1510604307672" expanded="true" signature="642:777" ph="{...}" />
           </folding>
         </state>
       </provider>
