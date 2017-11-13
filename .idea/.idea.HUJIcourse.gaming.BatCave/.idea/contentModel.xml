@@ -18,6 +18,8 @@
           <e p="batcave" t="Include">
             <e p="Bat.cs" t="Include" />
             <e p="BatController.cs" t="Include" />
+            <e p="BatKeyboardController.cs" t="Include" />
+            <e p="BatMouseController.cs" t="Include" />
             <e p="CaveChunk.cs" t="Include" />
             <e p="CaveGenerator.cs" t="Include" />
             <e p="CompositeBatController.cs" t="Include" />

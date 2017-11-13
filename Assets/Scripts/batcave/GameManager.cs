@@ -17,11 +17,12 @@ public class GameManager : MonoSingleton<GameManager> {
     [SerializeField] GameObject startGameUi;
     [SerializeField] GameObject gameOverUi;
     [SerializeField] EndlessWorldScroller[] scrollersToUpdate;
-
+    [SerializeField] AudioEvent _audioEvent;
+    
     [Header("Read Only")]
     [SerializeField] bool hasStarted;
     [SerializeField] bool isGameOver;
-
+    
     public bool HasStarted {
         get {
             return hasStarted;
@@ -77,9 +78,9 @@ public class GameManager : MonoSingleton<GameManager> {
             ResetGame();
             return false;
         }
-
+        
         // EXERCISE: Play game started audio event.
-
+        _audioEvent.Play();
         hasStarted = true;
         isGameOver = false;
         startGameUi.SetActive(false);
